@@ -10,9 +10,9 @@ from aiogram import Bot, Dispatcher, types
 # --- Configuration ---
 # TELEGRAM_TOKEN must be provided via environment variable in the hosting service
 import os
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = os.getenv("8368467915:AAFTNOIdtjPPKU21yTzHowUT-xC6MveCNc4")
 if not TELEGRAM_TOKEN:
-    raise SystemExit("Please set TELEGRAM_TOKEN environment variable")
+    raise SystemExit("8368467915:AAFTNOIdtjPPKU21yTzHowUT-xC6MveCNc4")
 
 DATA_FILE = Path("subscriptions.json")
 CHECK_INTERVAL = int(os.getenv("CHECK_INTERVAL_SEC", 30*60))  # default 30 minutes
