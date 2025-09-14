@@ -1,3 +1,2 @@
-aiogram==3.0.0b7
-aiohttp>=3.7.4
-feedparser>=6.0.8
+python-telegram-bot==20.7
+requests
